@@ -11,4 +11,10 @@ describe('Dummy test', () => {
   it('DummyClass is instantiable', () => {
     expect(new DummyClass()).toBeInstanceOf(DummyClass)
   })
+
+  it('PrintSelf return true ', () => {
+    expect(true).toBeTruthy()
+
+    expect(new DummyClass().PrintSelf()).toBeTruthy()
+  })
 })
